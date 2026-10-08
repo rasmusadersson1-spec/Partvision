@@ -1,11 +1,6 @@
 # PartVision Web
-
-1. Lägg projektet i GitHub.
-2. Importera repot till Vercel.
-3. I Vercel: Project Settings → Environment Variables → lägg till `OPENAI_API_KEY`.
-4. Deploy.
-5. Öppna din Vercel-adress.
-
-API-nyckeln ska vara server-side och får inte ha prefixet `NEXT_PUBLIC_`.
-
-Lokal körning: `npm install` följt av `npm run dev`.
+## Deploy
+Importera detta GitHub-repo till Vercel och lägg `OPENAI_API_KEY` som Environment Variable. Nyckeln ska inte ha `NEXT_PUBLIC_`-prefix.
+## Lokal körning
+npm install
+npm run dev
